@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="16dp">
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input 1"
+        android:id="@+id/input1"/>
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input 2"
+        android:id="@+id/input2"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input 3"
+        android:id="@+id/input3"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input 4"
+        android:id="@+id/input4"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input 5"
+        android:id="@+id/input5"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Claculate"
+        android:id="@+id/btn"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Answer"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
